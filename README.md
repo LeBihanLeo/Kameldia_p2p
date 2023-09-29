@@ -1,5 +1,5 @@
 # Kademlia Node
-Ce projet est une implémentation d'un nœud Kademlia en Python. Kademlia est un protocole de réseau décentralisé utilisé pour la recherche décentralisée et le stockage de données dans un réseau pair à pair (P2P). Ce nœud Kademlia peut être utilisé pour créer et rejoindre un réseau Kademlia, stocker des données de manière décentralisée et effectuer des recherches sur le réseau.
+Ce projet est une implémentation d'un nœud Kademlia en Python. Kademlia est un protocole de réseau décentralisé utilisé pour la recherche décentralisée et le stockage de données dans un réseau pair à pair (P2P).
 
 # Configuration Requise
 Pour exécuter ce code, vous aurez besoin de Python 3.x installé sur votre système. De plus, vous devez installer les dépendances requises en utilisant le gestionnaire de paquets pip. Les dépendances peuvent être installées en exécutant la commande suivante :

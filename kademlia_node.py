@@ -42,11 +42,11 @@ def user_input_thread(port, bootstrap_ip, bootstrap_port):
     loop.run_until_complete(run(port, bootstrap_ip, bootstrap_port))
 
 while True:
-    firstNode = input("Êtes-vous la première node du réseau ? (Y ou n)\n").strip().upper()
+    firstNode = input("Êtes-vous la première node du réseau ? (Y ou N)\n").strip().upper()
     if firstNode == "Y" or firstNode == "N":
         break
     else:
-        print("Mauvaise entrée, seulement Y ou n")
+        print("Mauvaise entrée, seulement Y ou N")
 port = int(input("Veuillez entrer le port sur lequel écouter : "))
 
 if firstNode == "N":
